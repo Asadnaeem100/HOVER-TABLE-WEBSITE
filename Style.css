@@ -1,0 +1,53 @@
+li      {
+    display: inline;
+    padding:10px;
+    background-color: salmon;
+    color:white;
+    border:2px groove red;
+    border-radius: 20px;
+}       
+li:hover        {
+    background-color:darkcyan;
+    color:white;
+    padding:20px;
+    font-size: large;
+    text-transform: uppercase;
+}
+a:active       {
+    color:red;
+}
+a:link      {
+    color:white;
+}
+table , th , td      {
+    border:1px groove black;
+    border-spacing: 10px;
+    padding:10px;
+    text-align: center;
+    width: 50%;
+    text-transform: uppercase;
+    color:blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+h2      {
+    border:1px solid black;
+    outline-color: red;
+    outline-style:outset;
+    outline-width: 10px;
+    text-shadow: 5px 8px 2px orangered;
+    height: 40px;
+}
+tr:hover    {
+    background-color: brown;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.asad1     {
+    background-color: black;
+    color:aliceblue;
+    border:10px solid transparent;
+    border-image:url("border.png") 40 round;
+    padding:20px;
+}
